@@ -1,0 +1,29 @@
+BO Digital GSP v24.0.0 — verificações executadas
+
+1. Sintaxe do app.js validada com Node.js: aprovada.
+2. Sintaxe do pwa.js validada com Node.js: aprovada.
+3. Sintaxe do service-worker.js validada com Node.js: aprovada.
+4. Sintaxe do google-apps-script.gs validada com Node.js: aprovada.
+5. Manifesto JSON validado: aprovado.
+6. Nomes de funções duplicados verificados no aplicativo e no Apps Script: nenhuma duplicidade encontrada.
+7. Teste de renderização responsiva sem erros JavaScript:
+   - smartphone 390 x 844;
+   - tablet 800 x 1100;
+   - tablet em paisagem 1024 x 700;
+   - computador 1366 x 768.
+8. Tela de login testada em smartphone, tablet paisagem e computador.
+9. Tela inicial e primeira etapa do boletim testadas nos três grupos de tela.
+10. Estouro horizontal verificado: não ocorreu nos tamanhos testados.
+11. Navegação confirmada:
+   - inferior em smartphone e tablet;
+   - lateral em computador;
+   - oculta no fluxo do BO em smartphone/tablet e mantida no computador.
+12. Formulário confirmado:
+   - uma coluna no smartphone;
+   - duas colunas em tablet e computador;
+   - painel de etapas fixo ao lado do formulário no computador.
+13. Cache PWA atualizado para bo-digital-gsp-v24-logo-login-api61.
+14. Logotipo Stellantis branco e transparente referenciado na tela de login e incluído no cache offline.
+14. Apps Script incluído: API 6.1.0, revisão acessos-bo-v2.
+
+Observação: a sincronização real com a conta Google, a instalação do PWA e o comportamento em navegadores corporativos precisam ser confirmados após a publicação no GitHub Pages.
