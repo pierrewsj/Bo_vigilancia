@@ -1,0 +1,12 @@
+BO Digital GSP v22 — verificações executadas
+
+1. Validação sintática do app.js: aprovada.
+2. Validação sintática do pwa.js: aprovada.
+3. Validação sintática do google-apps-script.gs: aprovada.
+4. Manifesto JSON validado: aprovado.
+5. Verificação de nomes de funções duplicadas no app e no Apps Script: nenhuma duplicidade encontrada.
+6. Estrutura BO_Ocorrencias conferida: 21 colunas, de A até U.
+7. Relato automático testado com respostas “nada”, “não se aplica”, “não houve” e “sem informação”: termos ignorados corretamente.
+8. Cache PWA atualizado para v22-api61.
+
+Observação: a gravação real na conta Google e a instalação no aparelho precisam ser confirmadas após publicar a API 6.1.0 e o GitHub Pages.
