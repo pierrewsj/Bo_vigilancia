@@ -1,0 +1,14 @@
+BO Digital GSP v27 — validações realizadas
+
+- app.js: sintaxe JavaScript validada com Node.js.
+- google-apps-script.gs: sintaxe JavaScript validada após cópia para .js.
+- Nenhuma função duplicada encontrada em app.js ou google-apps-script.gs.
+- APP_VERSION: 27.0.0.
+- API exigida: 6.3.0 / schema compact-t.
+- Cache PWA alterado para v27.
+- Sincronização idempotente por ID interno do BO.
+- Recuperação por GET action=getbyid quando o POST grava, mas a confirmação se perde.
+- Número oficial já concedido ao mesmo ID é reutilizado.
+- Metadados de anexos já enviados ao Drive são reutilizados em nova tentativa.
+
+Observação: a gravação real na conta Google do usuário depende da implantação atualizada do Apps Script.
