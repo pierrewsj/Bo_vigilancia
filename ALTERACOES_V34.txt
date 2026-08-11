@@ -1,0 +1,58 @@
+BO DIGITAL GSP v34.0.0 — OBRIGATORIEDADE CONTEXTUAL E COLETA POSSÍVEL
+
+OBJETIVO
+Evitar que o vigilante seja obrigado a informar dados que não existem ou não podem ser obtidos na situação real, sem perder a padronização e a qualidade documental do BO.
+
+1. CADASTRO DE MATERIAL/PEÇA ADAPTADO AO BO
+- Denominação permanece como identificação principal.
+- Quantidade e unidade deixam de ser obrigatórias em simples localização/recolhimento, rondas e registros em que a quantidade não seja elemento essencial.
+- Quando a quantidade for informada, a unidade passa a ser necessária para evitar dado ambíguo.
+- Em liberação/conferência de carga, quantidade e unidade permanecem essenciais.
+- Em divergência de quantidade, quantidade/unidade são essenciais; nas demais divergências, não.
+- MVM, fornecedor, desenho/código da peça e código do vasilhame ficam em seção “Identificação complementar”, recolhida por padrão nos BOs simples.
+- MVM não é exigido para item encontrado/recolhido ou ronda. O aplicativo orienta que o documento só seja informado quando efetivamente existir na operação.
+- Em operações de carga, o documento preenchido no roteiro pode ser reaproveitado no cadastro do material para evitar digitação duplicada.
+
+2. MATERIAL LOCALIZADO/RECOLHIDO E RONDAS
+- Cadastro de pessoa deixou de ser essencial quando não houver pessoa diretamente identificada.
+- Material continua sendo registrado quando fizer parte do fato.
+- Ronda interna/externa utiliza cadastro compacto, sem induzir preenchimento de documentos internos inexistentes.
+
+3. OUTROS BOs COM IDENTIFICAÇÃO POSSIVELMENTE INDISPONÍVEL
+- Pessoa: matrícula, documento, empresa e setor são informados quando disponíveis; não bloqueiam o cadastro.
+- Pessoa não identificada: botão específico para registrar essa condição sem criar nome/documento fictício.
+- Veículo: botão “Não foi possível identificar placa/chassi”; exige ao menos uma característica observável para não deixar o cadastro vazio.
+- Material sem identificação técnica: botão específico para registrar a condição real.
+- Diretoria: novas opções “Não identificada” e “Não se aplica”.
+- Matrícula do solicitante: passou a ser informada quando aplicável/disponível; nome do solicitante permanece essencial.
+
+4. REVISÃO DOS MODELOS
+Foram reduzidas exigências de pessoa diretamente envolvida em modelos nos quais o fato pode existir sem pessoa identificável, incluindo:
+- avaria em material/peça/equipamento;
+- suspeita de subtração de material interna/externa;
+- desaparecimento de material/equipamento;
+- material/equipamento localizado ou recolhido;
+- outras ocorrências de materiais;
+- dano patrimonial;
+- incêndio/emergência operacional;
+- falha operacional;
+- vazamento/ocorrência ambiental;
+- não conformidade de processo;
+- suspeita de dano intencional/sabotagem.
+
+5. DIVERGÊNCIA DE CARGA/DOCUMENTAÇÃO
+- “Documento de referência” passou a ser recomendado quando existente, em vez de obrigatório em toda divergência.
+- O texto deixa explícito que MVM é utilizado somente quando aplicável à movimentação correspondente.
+- Liberação/conferência de carga continua exigindo documento aplicável à operação, pois nesse modelo ele integra o procedimento.
+
+6. REDAÇÃO E NEXO
+- Mantida a revisão textual profissional da v33.
+- Relato consolidado considera somente dados efetivamente preenchidos.
+- Campos técnicos vazios não aparecem no texto gerado.
+- “NÃO IDENTIFICADO” é tratado como condição documental, e não como placa real.
+
+7. COMPATIBILIDADE
+- APP: 34.0.0
+- API/Google Apps Script: 6.3.0
+- Schema: compact-t
+- Não é necessária nova implantação do Apps Script quando o endpoint 6.3.0 atual já está funcionando.
