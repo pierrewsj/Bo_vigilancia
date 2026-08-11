@@ -1,0 +1,626 @@
+MATRIZ DE BOLETINS PADRONIZADOS — BO DIGITAL GSP v33.0.0
+Redação Profissional e Revisão NEXO
+
+FINALIDADE
+Esta matriz documenta os 41 modelos de boletim utilizados pelo aplicativo. Cada modelo orienta a coleta de dados conforme a natureza do atendimento, reduz omissões e favorece registros objetivos, completos e padronizados.
+
+REGRAS TRANSVERSAIS
+- O BO/atendimento inicia quando o vigilante chega ao local e cria o novo boletim.
+- A fonte principal do relato é selecionada separadamente; o vigilante registra o conteúdo sem precisar escrever conectores como “Segundo relato...”.
+- Relato recebido, constatação da Segurança Patrimonial, providências e desfecho são tratados como informações distintas.
+- Campos essenciais bloqueiam a finalização enquanto não forem preenchidos ou justificados como não obtidos, quando essa alternativa for permitida.
+- Campos recomendados elevam a qualidade do registro, mas não devem induzir o vigilante a inventar informações.
+- Evidência essencial pode receber justificativa real de indisponibilidade quando tecnicamente impossível registrá-la.
+- A redação deve registrar fatos observáveis e informações atribuídas às respectivas fontes, sem antecipar culpa, intenção, diagnóstico ou enquadramento jurídico.
+- O NEXO realiza revisão textual local para reduzir repetições, ajustar conectores, pontuação e padrões conhecidos de redação, sem criar fatos novos.
+
+==============================================================================
+ACESSO E CREDENCIAMENTO
+==============================================================================
+
+1. Tentativa de acesso não autorizado
+   Orientação: Identifique quem tentou acessar, qual acesso foi pretendido, se havia autorização válida e qual providência foi adotada.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Qual tipo de acesso foi pretendido?
+   - Qual foi o motivo alegado para o acesso?
+   - Havia credencial, crachá ou documento de acesso?
+   - Havia autorização válida para o acesso?
+   - O acesso chegou a ocorrer?
+   - Descreva a circunstância observada no ponto de acesso
+   Informações recomendadas:
+   - Responsável ou área consultada para confirmação
+
+2. Divergência de autorização ou credencial
+   Orientação: Registre a divergência de forma rastreável, indicando o documento apresentado, a inconsistência e a validação realizada.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Documento/credencial apresentado
+   - Qual divergência foi constatada?
+   - Como a autorização foi validada?
+   - Resultado da validação
+   Informações recomendadas:
+   - Número ou identificação da credencial/documento
+   - Destino dado à credencial/documento
+
+3. Acesso fora do horário autorizado
+   Orientação: Compare o horário constatado com a autorização existente e registre quem autorizou eventual exceção.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Movimento identificado
+   - Horário efetivamente constatado
+   - Horário/faixa autorizada
+   - Justificativa apresentada
+   - Houve autorização excepcional?
+   - Resultado do atendimento
+   Informações recomendadas:
+   - Responsável/área consultada
+
+4. Pessoa ou veículo em área de acesso restrito
+   Orientação: Identifique o ocupante/veículo, a área restrita, a autorização existente e como ocorreu o acesso.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - O que foi localizado em área restrita?
+   - Área restrita onde foi localizado
+   - Motivo informado para permanência/circulação
+   - Possuía autorização para permanecer/circular no local?
+   - A pessoa/veículo deixou a área após orientação?
+   Informações recomendadas:
+   - Como ocorreu o acesso à área?
+   - Responsável pela área comunicado
+
+5. Outra ocorrência de acesso ou credenciamento
+   Orientação: Classifique objetivamente o fato, identifique o acesso envolvido, a autorização e o desfecho.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descreva objetivamente a situação de acesso/credenciamento
+   - Ponto de acesso envolvido
+   - Situação da autorização
+   - Resultado após atuação da Segurança
+   Informações recomendadas:
+   - Responsável/área consultada
+
+==============================================================================
+VEÍCULOS E CIRCULAÇÃO
+==============================================================================
+
+6. Acidente ou colisão envolvendo veículo
+   Orientação: Preserve a sequência dos fatos: veículos/condutores, dinâmica, posição, danos, vítimas, testemunhas e providências.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Tipo de ocorrência viária
+   - Descreva a dinâmica do acidente conforme fatos observados e relatos
+   - Os veículos foram movimentados antes do registro?
+   - Descreva os danos visíveis
+   - Houve vítima ou pessoa lesionada?
+   - Houve atendimento médico?
+   - Destino/condição dos veículos após o atendimento
+   Informações recomendadas:
+   - Condição/sinalização relevante do local
+
+7. Avaria constatada em veículo
+   Orientação: Documente o veículo e a avaria exatamente como encontrada, sem atribuir causa sem evidência.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Quando a avaria foi percebida?
+   - Parte(s) do veículo danificada(s)
+   - Descrição objetiva da avaria
+   - Há causa conhecida ou indício verificável?
+   - Condição do veículo ao término do atendimento
+   Informações recomendadas:
+   - Detalhe da causa/relato, quando existente
+   - Declaração relevante do condutor/responsável
+
+8. Veículo apresentado com dano preexistente
+   Orientação: O objetivo é registrar que a avaria já estava presente na chegada. Identifique veículo, condutor, danos preexistentes e evidências.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Portaria/ponto de entrada
+   - Momento da constatação
+   - Localização da avaria no veículo
+   - Descrição objetiva dos danos preexistentes
+   - O condutor foi cientificado do registro?
+   Informações recomendadas:
+   - Declaração do condutor, quando houver
+   - Responsável/área comunicada
+
+9. Estacionamento ou circulação em desacordo com as normas
+   Orientação: Registre a situação viária em desacordo com o procedimento, a localização, a orientação realizada e o resultado.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Veículos: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Tipo de irregularidade
+   - Posição/local exato do veículo
+   - Havia sinalização/orientação aplicável no local?
+   - O condutor foi localizado?
+   - Orientação realizada pela Segurança
+   - A orientação foi atendida?
+   Informações recomendadas:
+   - Há registro conhecido de reincidência?
+
+10. Remoção ou transporte de veículo por reboque
+   Orientação: Documente autorização, empresa de reboque, condição do veículo, origem, destino e evidências antes da remoção.
+   Entidades: Pessoas/envolvidos: essencial | Veículos: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Motivo da remoção/reboque
+   - Quem solicitou/autorizou a remoção?
+   - Empresa responsável pelo reboque
+   - Local de origem da remoção
+   - Destino informado
+   - Condição aparente do veículo antes da remoção
+   - Horário da retirada
+   Informações recomendadas:
+   - Condutor/operador do reboque
+
+11. Veículo não identificado ou em situação suspeita
+   Orientação: Registre somente características observáveis, localização, comportamento e verificações realizadas.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Testemunhas: quando aplicável/recomendado | Veículos: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Qual fato objetivo motivou a abordagem/verificação?
+   - Localização e sentido de deslocamento
+   - Características observáveis do veículo
+   - Ocupantes identificados?
+   - Verificações realizadas
+   - Resultado da verificação
+
+12. Outra ocorrência envolvendo veículos ou circulação
+   Orientação: Descreva o fato viário de forma objetiva, identificando veículo, condutor quando possível, local e providência.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Testemunhas: quando aplicável/recomendado | Veículos: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descrição objetiva da situação envolvendo o veículo
+   - Condutor identificado?
+   - Havia risco imediato para pessoas, veículos ou operação?
+   - Resultado da atuação da Segurança
+   Informações recomendadas:
+   - Condição relevante do local
+
+==============================================================================
+MATERIAIS, PEÇAS E CARGAS
+==============================================================================
+
+13. Avaria em material, peça, equipamento ou vasilhame
+   Orientação: Identifique o item, quantidade, condição, dano, responsável, origem/destino quando aplicável e evidências.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Tipo de item avariado
+   - Tipo de dano constatado
+   - Descrição da extensão aparente da avaria
+   - Momento/local em que a avaria foi constatada
+   - Há causa conhecida ou indício verificável?
+   Informações recomendadas:
+   - Condição da embalagem/vasilhame
+   - Responsável/setor pelo item
+
+14. Divergência de carga, quantidade ou documentação
+   Orientação: Confronte documento e constatação física. Registre quantidade prevista, encontrada, divergência, lacre e decisão tomada.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: essencial | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Natureza da divergência
+   - Documento de referência
+   - Descreva objetivamente a divergência encontrada
+   - Responsável pela conferência/validação
+   - Decisão adotada para a carga
+   Informações recomendadas:
+   - Quantidade prevista/documentada
+   - Quantidade constatada
+   - Condição do lacre
+
+15. Suspeita de subtração de material em área interna
+   Orientação: Diferencie relato de constatação. Registre o item, último local/horário conhecido, controle de acesso, buscas e indícios.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Como a ausência do material foi percebida?
+   - Última localização conhecida do material
+   - Data/horário aproximado em que foi visto pela última vez
+   - Como o material estava armazenado/protegido?
+   - Buscas/verificações realizadas pela equipe
+   - Foram encontrados indícios materiais que possam sugerir subtração?
+   Informações recomendadas:
+   - Quem possuía acesso autorizado ao local?
+   - Há câmeras que possam contribuir para apuração?
+   - Detalhe dos indícios, quando existentes
+
+16. Suspeita de subtração de material em área externa
+   Orientação: Registre o vínculo da área externa com a unidade, condições do local, último controle conhecido, buscas e indícios.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Identifique precisamente a área externa
+   - Como a ausência do material foi percebida?
+   - Última localização conhecida do material
+   - Data/horário aproximado da última visualização
+   - Condição de cercamento, acesso, iluminação ou proteção do local
+   - Buscas/verificações realizadas
+   - Foram encontrados indícios que possam sugerir subtração?
+   Informações recomendadas:
+   - Há câmeras na região?
+   - Houve acionamento de autoridade/apoio externo?
+
+17. Desaparecimento de material ou equipamento
+   Orientação: Não classifique automaticamente o desaparecimento como subtração. Registre último paradeiro, movimentações conhecidas, buscas realizadas e eventual existência de indícios objetivos.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Como o desaparecimento foi constatado?
+   - Última localização conhecida
+   - Última data/horário em que o item foi visto
+   - Locais verificados durante a busca
+   - Resultado das buscas
+   - Há indícios objetivos que possam sugerir subtração?
+   Informações recomendadas:
+   - Último responsável/usuário conhecido
+   - Movimentações conhecidas antes do desaparecimento
+   - Havia controle de acesso/custódia do item?
+
+18. Material ou equipamento localizado/recolhido
+   Orientação: Registre origem da localização, condição do item e cadeia de custódia até a entrega/armazenamento.
+   Entidades: Pessoas/envolvidos: essencial | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Local exato onde o item foi encontrado
+   - Quem localizou/entregou o item?
+   - Condição aparente do item no recolhimento
+   - Havia identificação do proprietário/responsável?
+   - Motivo do recolhimento pela Segurança
+   - Onde e com quem o item ficou sob custódia?
+   - Houve entrega posterior ao responsável?
+   Informações recomendadas:
+   - Possível proprietário/responsável identificado
+
+19. Liberação ou conferência de carga
+   Orientação: Registre documento, carga, veículo, motorista, lacre, resultado da conferência e responsável pela liberação.
+   Entidades: Pessoas/envolvidos: essencial | Veículos: essencial | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Tipo de operação
+   - Origem da carga
+   - Destino da carga
+   - Documento de referência (MVM/NF/romaneio)
+   - Condição aparente da carga
+   - Resultado da conferência
+   - Responsável pela liberação/decisão
+   Informações recomendadas:
+   - Condição do lacre
+   - Horário da liberação/encerramento da conferência
+
+20. Outra ocorrência envolvendo materiais, peças ou cargas
+   Orientação: Identifique o material/carga, quantidade, responsável, documentação e a situação encontrada.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descrição objetiva da situação envolvendo material/peça/carga
+   - Condição do material/carga
+   - Responsável/setor pelo material
+   Informações recomendadas:
+   - Origem conhecida
+   - Destino previsto
+   - Documentação relacionada
+
+==============================================================================
+PESSOAS, COMPORTAMENTO E SAÚDE
+==============================================================================
+
+21. Agressão física ou confronto entre pessoas
+   Orientação: Registre participantes, fatos observados/relatados, lesões aparentes sem diagnóstico, testemunhas, atendimento e medidas de segurança.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descreva a dinâmica do fato separando observação e relato
+   - Tipo de contato físico relatado/observado
+   - Havia lesão aparente?
+   - Houve atendimento médico?
+   - Foi necessário separar/afastar os envolvidos?
+   Informações recomendadas:
+   - Descrição objetiva de sinais/lesões aparentes
+   - Liderança/RH/área responsável acionada
+
+22. Ameaça, ofensa ou conflito interpessoal
+   Orientação: Registre palavras/condutas relevantes com objetividade, evitando qualificações pessoais. Diferencie relato de constatação.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Natureza do conflito
+   - Descreva como o conflito ocorreu
+   - Houve ameaça?
+   - Houve agressão física?
+   - A situação foi controlada no local?
+   Informações recomendadas:
+   - Conteúdo relevante relatado/presenciado
+   - Liderança/RH/área acionada
+
+23. Descumprimento de norma ou procedimento interno
+   Orientação: Registre a norma/orientação aplicável, a conduta observada, a orientação prestada e o resultado, sem juízo disciplinar.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Norma, regra ou orientação relacionada
+   - Conduta objetivamente observada
+   - Orientação realizada no atendimento
+   - A orientação foi acatada?
+   Informações recomendadas:
+   - A pessoa havia sido orientada anteriormente sobre o procedimento?
+   - Responsável/liderança acionada
+   - Houve impacto ou risco decorrente da conduta?
+
+24. Alteração comportamental observada
+   Orientação: Registre somente sinais físicos e comportamentais observáveis. Não atribua causa, diagnóstico ou consumo de álcool/substâncias sem confirmação. Documente medidas preventivas e encaminhamento.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Quais sinais comportamentais/físicos foram observados?
+   - Contexto em que os sinais foram percebidos
+   - A pessoa estava conduzindo veículo/equipamento ou em atividade de risco?
+   - Foi adotada medida preventiva de afastamento da atividade/risco?
+   - Houve encaminhamento médico/ambulatório?
+   - Liderança/RH/área responsável acionada
+   - Condição/destino da pessoa ao final
+
+25. Mal-estar, atendimento médico ou acidente pessoal
+   Orientação: Registre fatos e sinais observáveis, sem diagnóstico. Priorize atendimento, local, pessoa, circunstâncias e encaminhamento.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Natureza aparente do atendimento
+   - Circunstâncias em que ocorreu
+   - Sinais/condição observável da pessoa
+   - Atendimento acionado
+   - Encaminhamento/destino da pessoa
+   Informações recomendadas:
+   - Horário aproximado do atendimento inicial
+   - Havia atividade/equipamento/material relacionado ao fato?
+
+26. Outra ocorrência envolvendo pessoas ou comportamento
+   Orientação: Descreva a conduta/fato de forma objetiva, identifique envolvidos e registre a intervenção e o desfecho.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descrição objetiva da situação envolvendo pessoa(s)
+   - Conduta efetivamente observada pela Segurança
+   - Havia risco imediato?
+   - Resultado da intervenção
+   Informações recomendadas:
+   - Informações relevantes relatadas por terceiros
+   - Liderança/RH/área acionada
+
+==============================================================================
+INSTALAÇÕES, PATRIMÔNIO E EMERGÊNCIAS
+==============================================================================
+
+27. Dano em instalação, equipamento ou patrimônio
+   Orientação: Identifique o bem, localização, dano aparente, circunstâncias, possíveis riscos e isolamento/reparo solicitado.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Instalação/equipamento/bem atingido
+   - Tipo de dano aparente
+   - Descrição objetiva da extensão aparente
+   - Há causa conhecida ou indício verificável?
+   - O dano gerou risco imediato?
+   - Foi necessário isolar/interditar o local?
+   - Manutenção/área responsável acionada
+   - Condição do local/bem ao final
+
+28. Incêndio ou princípio de incêndio
+   Orientação: Priorize segurança. Registre local, material/equipamento envolvido, sinais observados, combate, brigada/bombeiros, vítimas e condição final.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Situação constatada
+   - Material/equipamento/local de origem aparente
+   - Sinais observados
+   - Houve combate inicial?
+   - Brigada foi acionada?
+   - Corpo de Bombeiros/apoio externo acionado?
+   - Houve pessoa ferida/exposta?
+   - Área isolada/evacuada?
+   - Condição final e horário aproximado de normalização
+
+29. Situação de emergência operacional
+   Orientação: Registre risco imediato, medidas de controle, áreas acionadas, pessoas expostas e condição de normalização.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Natureza da emergência
+   - Risco imediato identificado
+   - Havia pessoas potencialmente expostas?
+   - Medidas imediatas de controle adotadas
+   - Áreas/equipes acionadas
+   - Houve isolamento/interdição?
+   - Condição final/normalização
+
+30. Falha operacional com impacto
+   Orientação: Registre a operação, desvio constatado, impacto observável, controle imediato e área responsável, sem atribuir culpa.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Atividade/processo em execução
+   - Falha/desvio objetivamente constatado
+   - Impacto ou risco decorrente
+   - Houve interrupção de atividade/processo?
+   - Medida imediata de controle
+   - Área/responsável técnico acionado
+   - Condição ao final do atendimento
+
+31. Vazamento, derramamento ou ocorrência ambiental
+   Orientação: Identifique substância/material quando conhecido, origem, extensão aparente, drenagem/solo atingido, contenção e área ambiental acionada.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: essencial
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Tipo de ocorrência ambiental
+   - Substância/material envolvido
+   - Origem/fonte aparente
+   - Extensão aparente da ocorrência
+   - Atingiu solo, drenagem ou curso d’água?
+   - Medidas de contenção adotadas
+   - Área ambiental/manutenção acionada
+   - Condição final do local
+
+32. Outra ocorrência envolvendo instalações ou emergência
+   Orientação: Identifique o patrimônio/local, risco, medidas de controle, áreas acionadas e condição final.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descrição objetiva da situação
+   - Bem/instalação/área envolvida
+   - Risco identificado
+   - Medidas imediatas de controle
+   - Área responsável acionada
+   - Condição final
+
+==============================================================================
+SEGURANÇA PATRIMONIAL E CONTROLE
+==============================================================================
+
+33. Irregularidade constatada em ronda interna
+   Orientação: Registre o ponto da ronda, a irregularidade/constatação, risco, orientação e normalização.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Ponto/trecho da ronda em que o fato foi identificado
+   - O que foi constatado?
+   - Havia risco imediato?
+   - Orientação/providência realizada
+   - Situação normalizada?
+   Informações recomendadas:
+   - Pessoa/setor responsável pelo local
+
+34. Irregularidade constatada em ronda externa
+   Orientação: Registre perímetro/local externo, fato observado, risco, pessoas/veículos relacionados e providência.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Trecho/local externo da ronda
+   - O que foi constatado?
+   - Havia risco para perímetro, patrimônio ou pessoas?
+   - Providência/acionamento realizado
+   - Condição final
+   Informações recomendadas:
+   - Condição de cercamento, iluminação, portões ou barreiras
+
+35. Constatação em fiscalização ou inspeção de segurança
+   Orientação: Registre objeto da fiscalização, requisito verificado, irregularidade, responsável e prazo/ação para regularização.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Objeto da fiscalização/inspeção
+   - Requisito/procedimento verificado
+   - Resultado da verificação
+   - Orientação/ação para regularização
+   Informações recomendadas:
+   - Irregularidade/ressalva identificada
+   - Responsável/setor informado
+   - Prazo/retorno acordado, quando aplicável
+
+36. Não conformidade identificada em processo ou procedimento
+   Orientação: Registre o processo ou requisito, a evidência observada, a divergência, o impacto e o encaminhamento, sem atribuir culpa individual.
+   Entidades: Pessoas/envolvidos: essencial | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Processo/procedimento auditado
+   - Requisito esperado
+   - Evidência/condição observada
+   - Divergência identificada
+   - Área/responsável comunicado
+   - Encaminhamento definido
+   Informações recomendadas:
+   - Impacto/risco associado
+
+37. Suspeita de dano intencional ou sabotagem
+   Orientação: Preserve fatos e evidências. Registre somente indícios verificáveis e medidas de preservação; não afirme autoria, intenção ou sabotagem como fato confirmado sem elementos objetivos.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: essencial quando tecnicamente possível
+   Informações essenciais:
+   - Fato/dano objetivamente constatado
+   - Bem/processo/instalação atingida
+   - Quais indícios verificáveis justificam a suspeita de ação intencional?
+   - Há informação objetiva sobre possível autoria?
+   - Medidas de preservação do local/evidências
+   - Gestão/área responsável acionada
+   Informações recomendadas:
+   - Imagens/câmeras foram preservadas ou solicitadas?
+
+38. Ocorrência envolvendo empresa de segurança prestadora de serviço
+   Orientação: Registre equipe/empresa envolvida, atividade, desvio/fato, impactos e comunicação à supervisão.
+   Entidades: Pessoas/envolvidos: essencial | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Empresa prestadora de segurança envolvida
+   - Atividade/posto relacionado
+   - Fato ou desvio objetivamente constatado
+   - Supervisor/responsável comunicado
+   - Encaminhamento adotado
+   Informações recomendadas:
+   - Procedimento esperado, quando aplicável
+   - Impacto/risco identificado
+
+39. Outra ocorrência relacionada à segurança patrimonial
+   Orientação: Contextualize a atuação da Segurança Patrimonial, registre o fato objetivamente verificado, eventual risco, providências adotadas e condição final.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Contexto da atuação da Segurança Patrimonial
+   - O que foi objetivamente constatado pela equipe?
+   - Qual providência ou acionamento foi realizado?
+   - Condição final no encerramento do atendimento
+   Informações recomendadas:
+   - Qual risco foi identificado, se houver?
+
+==============================================================================
+OCORRÊNCIAS NÃO CLASSIFICADAS
+==============================================================================
+
+40. Ocorrência não enquadrada nas categorias existentes
+   Orientação: Use somente quando nenhuma classificação específica representar adequadamente o fato. Registre a situação de forma objetiva, os elementos relacionados, eventual risco, providências e condição final.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Descreva objetivamente a situação
+   - Quais pessoas, veículos, materiais ou instalações estão envolvidos?
+   - Providência adotada
+   - Condição final
+   Informações recomendadas:
+   - Risco/impacto identificado
+   - Há norma/procedimento relacionado?
+
+41. Outra situação relevante para registro
+   Orientação: Descreva a natureza do registro com objetividade e inclua somente elementos efetivamente relacionados ao fato.
+   Entidades: Pessoas/envolvidos: quando aplicável/recomendado | Testemunhas: quando aplicável/recomendado | Veículos: quando aplicável/recomendado | Materiais/peças/cargas: quando aplicável/recomendado
+   Evidências: recomendada quando contribuir para o registro
+   Informações essenciais:
+   - Natureza do registro
+   - Descrição objetiva do fato
+   - Providência adotada
+   - Condição final
+   Informações recomendadas:
+   - Elementos relacionados
+   - Risco/impacto identificado
+
+==============================================================================
+PADRÃO DE REDAÇÃO
+==============================================================================
+
+O relatório consolidado deve preservar a origem de cada informação e evitar conclusões não confirmadas. Estrutura recomendada:
+1. Contextualização do atendimento.
+2. Identificação do solicitante e vínculo organizacional, quando aplicável.
+3. Relato recebido, introduzido uma única vez por conector de atribuição.
+4. Constatações objetivas da equipe de Segurança Patrimonial.
+5. Dados complementares apurados.
+6. Providências adotadas e áreas acionadas.
+7. Condição final/desfecho no encerramento.
+
+Exemplos preferenciais: “Segundo relato do solicitante...”, “No local, a equipe de Segurança Patrimonial constatou...”, “Foram adotadas as seguintes providências...”, “Não foi possível confirmar...”.
+Evitar: repetição de conectores, opinião pessoal, afirmação de culpa/intenção sem base, diagnóstico clínico e classificação jurídica não confirmada.
