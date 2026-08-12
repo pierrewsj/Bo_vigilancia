@@ -1,0 +1,45 @@
+BO DIGITAL GSP — v35.0.0
+FLUXO ADAPTATIVO + SUBMODELOS OPERACIONAIS
+
+OBJETIVO
+Tornar o preenchimento mais curto, intuitivo e padronizado, reduzindo perguntas repetidas e impedindo que informações críticas sejam esquecidas.
+
+PRINCIPAIS ALTERAÇÕES
+1. Mantidos 41 tipos principais de BO. Situações históricas foram incorporadas como submodelos operacionais, sem aumentar a lista principal.
+2. Perguntas de direcionamento aparecem na Etapa 1 e passam a definir, de forma condicional, pessoas, veículos, materiais, documentos e evidências das etapas seguintes.
+3. RONDA INTERNA e RONDA EXTERNA:
+   - não possuem solicitante;
+   - são tratadas como rondas programadas da Segurança Patrimonial;
+   - o vigilante responsável, registro e turno são vinculados automaticamente pela sessão de login;
+   - a validação impede concluir uma ronda sem identificação do vigilante/registro;
+   - o relatório não cria frase de solicitante e inicia a narrativa pela ronda/constatação.
+4. Elementos opcionais não obrigam mais o vigilante a responder repetidamente “não há pessoa / não há veículo / não há material”. Eles ficam em “Complementos opcionais”.
+5. Documentos passaram a ter cadastro próprio (MVM, DANFE/NF, DEEM, romaneio, ordem de carga, Customer Care, O.S. etc.), eliminando duplicidade de documento entre cadastro de material e apuração.
+6. Em roteiros onde um documento específico é crítico (ex.: DEEM ou MVM), o aplicativo exige esse tipo ou uma justificativa real de indisponibilidade.
+7. Quantidades passaram a ter lógica contextual:
+   - pergunta se foi possível determinar;
+   - quando determinada, quantidade e unidade são obrigatórias;
+   - quando não determinada, exige justificativa;
+   - em divergência de quantidade/DEEM, registra quantidade prevista e constatada por material e calcula a diferença.
+8. Identificação técnica de peças/material:
+   - denominação/descrição sempre é exigida;
+   - desenho/código só é obrigatório quando o vigilante confirma que a identificação técnica está disponível;
+   - não é necessário inventar fornecedor, MVM, desenho ou código de vasilhame quando não existirem no cenário.
+9. Veículos em acidente/avaria/dano preexistente agora registram o dano por veículo:
+   - presença de dano;
+   - região atingida;
+   - tipo objetivo (amassado, arranhado, quebrado, trincado, deformado etc.);
+   - descrição objetiva.
+   Isso evita repetir uma descrição genérica de danos na etapa de apuração.
+10. Evidências passam a ser orientadas por finalidade. Exemplos: foto geral do local, foto do dano, foto do item encontrado, foto da identificação do veículo. Um anexo genérico não substitui automaticamente uma foto específica exigida.
+11. Quando uma evidência essencial não puder ser obtida, é possível justificar a indisponibilidade. O aplicativo reforça que o vigilante não deve se expor a risco para obter foto.
+12. A revisão final mostra origem, vigilante da ronda ou solicitante conforme o caso, documentos, roteiro específico, pendências e evidências por finalidade.
+13. O NEXO e o relato profissional passam a considerar origem, submodelo, documentos, quantidade prevista/constatada, danos por veículo e a ausência de solicitante em ronda.
+14. Pesquisa de BOs passa a considerar origem, submodelo, documentos, códigos/desenhos e outros dados estruturados.
+
+SUBMODELOS HISTÓRICOS INCORPORADOS
+Entre os roteiros adicionados/organizados estão: recolhimento em revista, crachá manual, visitante fora de horário, veículo rebocado, colisão/choque/abalroamento, empilhadeira x carreta, estacionamento irregular, sider aberto, pane de caminhão, queda de peças, carga tombada, peças molhadas, container danificado, DEEM maior/menor, destino incorreto/CKD, recusa de carregamento, fiscalização de trânsito/radar, estado de conservação, O.S. com empilhadeira, overtime, MVM extraviado, KM lançado incorretamente, protótipo sem lacre, vestimenta, motorista sem EPI, instabilidade do sistema Ronda e transporte fretado.
+
+BACKEND
+Mantida compatibilidade com Google Apps Script API 6.3.0 / schema compact-t.
+Os novos dados estruturados permanecem no JSON integral do registro e no relatório; nenhuma nova implantação é obrigatória para usar a v35.

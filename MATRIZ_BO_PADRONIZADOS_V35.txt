@@ -1,0 +1,302 @@
+MATRIZ DE BOs PADRONIZADOS — v35.0
+Fluxo adaptativo, submodelos operacionais e obrigatoriedade contextual
+
+Tipos principais: 41
+Submodelos operacionais: 40
+
+Legenda: required = obrigatório; recommended = opcional/recomendado; hidden = oculto no fluxo padrão.
+
+01. Tentativa de acesso não autorizado
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Qual tipo de acesso foi pretendido? | Qual foi o motivo alegado para o acesso? | Havia credencial, crachá ou documento de acesso? | Havia autorização válida para o acesso? | O acesso chegou a ocorrer? | Descreva a circunstância observada no ponto de acesso
+
+02. Divergência de autorização ou credencial
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Documento/credencial apresentado | Qual divergência foi constatada? | Como a autorização foi validada? | Resultado da validação
+
+03. Acesso fora do horário autorizado
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Movimento identificado | Horário efetivamente constatado | Horário/faixa autorizada | Justificativa apresentada | Houve autorização excepcional? | Resultado do atendimento
+   Submodelos:
+      - Saída de visitante fora do horário previsto (evidência=recommended)
+
+04. Pessoa ou veículo em área de acesso restrito
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: O que foi localizado em área restrita? | Área restrita onde foi localizado | Motivo informado para permanência/circulação | Possuía autorização para permanecer/circular no local? | A pessoa/veículo deixou a área após orientação?
+
+05. Outra ocorrência de acesso ou credenciamento
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descreva objetivamente a situação de acesso/credenciamento | Ponto de acesso envolvido | Situação da autorização | Resultado após atuação da Segurança
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: resultado
+   Submodelos:
+      - Emissão manual/provisória de crachá (origem=Solicitação recebida; evidência=recommended)
+
+06. Acidente ou colisão envolvendo veículo
+   Entidades: pessoa=required; testemunha=recommended; veículo=required; material=hidden
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Tipo de ocorrência viária | Descreva a dinâmica do acidente conforme fatos observados e relatos | Os veículos foram movimentados antes do registro? | Descreva os danos visíveis | Houve vítima ou pessoa lesionada? | Houve atendimento médico? | Destino/condição dos veículos após o atendimento
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: danosVisiveis
+   Evidências específicas: Foto geral do local [obrigatória] | Foto dos danos/partes atingidas [obrigatória]
+   Submodelos:
+      - Colisão entre veículos (evidência=required)
+      - Choque contra objeto/estrutura (evidência=required)
+      - Abalroamento lateral (evidência=required)
+      - Empilhadeira x carreta/veículo (documentos=recommended; evidência=required)
+
+07. Avaria constatada em veículo
+   Entidades: pessoa=required; testemunha=recommended; veículo=required; material=hidden
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Quando a avaria foi percebida? | Parte(s) do veículo danificada(s) | Descrição objetiva da avaria | Há causa conhecida ou indício verificável? | Condição do veículo ao término do atendimento
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: parteDanificada, descricaoDano, condicaoFinal
+   Evidências específicas: Foto da identificação do veículo [obrigatória] | Foto da avaria [obrigatória]
+   Submodelos:
+      - Pane/falha mecânica de caminhão na planta (documentos=recommended; evidência=recommended)
+
+08. Veículo apresentado com dano preexistente
+   Entidades: pessoa=required; testemunha=recommended; veículo=required; material=hidden
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Portaria/ponto de entrada | Momento da constatação | Localização da avaria no veículo | Descrição objetiva dos danos preexistentes | O condutor foi cientificado do registro?
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: localizacaoDano, descricaoDano
+   Evidências específicas: Foto da identificação do veículo [obrigatória] | Foto do dano preexistente [obrigatória]
+
+09. Estacionamento ou circulação em desacordo com as normas
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=required; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Tipo de irregularidade | Posição/local exato do veículo | Havia sinalização/orientação aplicável no local? | O condutor foi localizado? | Orientação realizada pela Segurança | A orientação foi atendida?
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: orientacao
+   Submodelos:
+      - Estacionamento irregular (evidência=recommended)
+      - Circulação de carreta com sider aberto (documentos=recommended; evidência=recommended)
+
+10. Remoção ou transporte de veículo por reboque
+   Entidades: pessoa=required; testemunha=hidden; veículo=required; material=hidden
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Motivo da remoção/reboque | Quem solicitou/autorizou a remoção? | Empresa responsável pelo reboque | Local de origem da remoção | Destino informado | Condição aparente do veículo antes da remoção | Horário da retirada
+   Evidências específicas: Foto do veículo antes da remoção [obrigatória]
+   Submodelos:
+      - Entrada/remoção de veículo por reboque (documentos=recommended; evidência=required)
+
+11. Veículo não identificado ou em situação suspeita
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=required; material=hidden
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Qual fato objetivo motivou a abordagem/verificação? | Localização e sentido de deslocamento | Características observáveis do veículo | Ocupantes identificados? | Verificações realizadas | Resultado da verificação
+
+12. Outra ocorrência envolvendo veículos ou circulação
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=required; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descrição objetiva da situação envolvendo o veículo | Condutor identificado? | Havia risco imediato para pessoas, veículos ou operação? | Resultado da atuação da Segurança
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: resultado
+
+13. Avaria em material, peça, equipamento ou vasilhame
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=required
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Tipo de item avariado | Tipo de dano constatado | Descrição da extensão aparente da avaria | Momento/local em que a avaria foi constatada | Há causa conhecida ou indício verificável?
+   Evidências específicas: Foto do item/carga avariada [obrigatória] | Foto do detalhe da avaria [obrigatória]
+   Submodelos:
+      - Queda de peças durante movimentação com empilhadeira (documentos=recommended; evidência=required)
+      - Carga tombada / peças com suspeita de avaria (documentos=recommended; evidência=required)
+      - Peças molhadas / contato com líquido (documentos=recommended; evidência=required)
+      - Container/vasilhame danificado (documentos=recommended; evidência=required)
+
+14. Divergência de carga, quantidade ou documentação
+   Entidades: pessoa=required; testemunha=recommended; veículo=required; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Natureza da divergência | Descreva objetivamente a divergência encontrada | Responsável pela conferência/validação | Decisão adotada para a carga
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: documento, quantidadePrevista, quantidadeConstatada
+   Submodelos:
+      - Excedente de peças / DEEM maior (documentos=required; docs obrigatórios=DEEM; evidência=required)
+      - Falta de peças / DEEM menor (documentos=required; docs obrigatórios=DEEM; evidência=required)
+      - Carga com destino incorreto / CKD (documentos=required; docs obrigatórios=MVM; evidência=recommended)
+      - Divergência documental (documentos=required; evidência=recommended)
+
+15. Suspeita de subtração de material em área interna
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Como a ausência do material foi percebida? | Última localização conhecida do material | Data/horário aproximado em que foi visto pela última vez | Como o material estava armazenado/protegido? | Buscas/verificações realizadas pela equipe | Foram encontrados indícios materiais que possam sugerir subtração?
+
+16. Suspeita de subtração de material em área externa
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Identifique precisamente a área externa | Como a ausência do material foi percebida? | Última localização conhecida do material | Data/horário aproximado da última visualização | Condição de cercamento, acesso, iluminação ou proteção do local | Buscas/verificações realizadas | Foram encontrados indícios que possam sugerir subtração?
+
+17. Desaparecimento de material ou equipamento
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Como o desaparecimento foi constatado? | Última localização conhecida | Última data/horário em que o item foi visto | Locais verificados durante a busca | Resultado das buscas | Há indícios objetivos que possam sugerir subtração?
+
+18. Material ou equipamento localizado/recolhido
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=recommended; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Local exato onde o item foi encontrado | Quem localizou/entregou o item? | Condição aparente do item no recolhimento | Havia identificação do proprietário/responsável? | Motivo do recolhimento pela Segurança | Onde e com quem o item ficou sob custódia? | Houve entrega posterior ao responsável?
+   Evidências específicas: Foto do item localizado/recolhido [obrigatória] | Foto do local onde foi encontrado [recomendada]
+   Submodelos:
+      - Notebook recolhido em revista (origem=Revista / controle de acesso; documentos=recommended; evidência=recommended)
+      - Objeto/equipamento recolhido em revista (origem=Revista / controle de acesso; documentos=recommended; evidência=recommended)
+      - Objeto pessoal encontrado (evidência=recommended)
+      - Celular encontrado/recolhido (evidência=required)
+      - Peças encontradas em vasilhame (evidência=required)
+      - Outro material/equipamento localizado ou recolhido (evidência=required)
+
+19. Liberação ou conferência de carga
+   Entidades: pessoa=required; testemunha=hidden; veículo=required; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Tipo de operação | Origem da carga | Destino da carga | Documento de referência (MVM/NF/romaneio) | Condição aparente da carga | Resultado da conferência | Responsável pela liberação/decisão
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: documento
+   Submodelos:
+      - Conferência/liberação de carga (documentos=required; evidência=recommended)
+      - Recusa de carregamento (documentos=required; docs obrigatórios=MVM; evidência=recommended)
+
+20. Outra ocorrência envolvendo materiais, peças ou cargas
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=required
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descrição objetiva da situação envolvendo material/peça/carga | Condição do material/carga | Responsável/setor pelo material
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: documentacao
+
+21. Agressão física ou confronto entre pessoas
+   Entidades: pessoa=required; testemunha=recommended; veículo=hidden; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descreva a dinâmica do fato separando observação e relato | Tipo de contato físico relatado/observado | Havia lesão aparente? | Houve atendimento médico? | Foi necessário separar/afastar os envolvidos?
+
+22. Ameaça, ofensa ou conflito interpessoal
+   Entidades: pessoa=required; testemunha=recommended; veículo=hidden; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Natureza do conflito | Descreva como o conflito ocorreu | Houve ameaça? | Houve agressão física? | A situação foi controlada no local?
+
+23. Descumprimento de norma ou procedimento interno
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Norma, regra ou orientação relacionada | Conduta objetivamente observada | Orientação realizada no atendimento | A orientação foi acatada?
+
+24. Alteração comportamental observada
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=hidden
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Quais sinais comportamentais/físicos foram observados? | Contexto em que os sinais foram percebidos | A pessoa estava conduzindo veículo/equipamento ou em atividade de risco? | Foi adotada medida preventiva de afastamento da atividade/risco? | Houve encaminhamento médico/ambulatório? | Liderança/RH/área responsável acionada | Condição/destino da pessoa ao final
+
+25. Mal-estar, atendimento médico ou acidente pessoal
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Natureza aparente do atendimento | Circunstâncias em que ocorreu | Sinais/condição observável da pessoa | Atendimento acionado | Encaminhamento/destino da pessoa
+
+26. Outra ocorrência envolvendo pessoas ou comportamento
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descrição objetiva da situação envolvendo pessoa(s) | Conduta efetivamente observada pela Segurança | Havia risco imediato? | Resultado da intervenção
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: areaAcionada, resultado
+
+27. Dano em instalação, equipamento ou patrimônio
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Instalação/equipamento/bem atingido | Tipo de dano aparente | Descrição objetiva da extensão aparente | Há causa conhecida ou indício verificável? | O dano gerou risco imediato? | Foi necessário isolar/interditar o local? | Manutenção/área responsável acionada | Condição do local/bem ao final
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: manutencao, condicaoFinal
+   Evidências específicas: Foto geral do local/bem [obrigatória] | Foto do detalhe do dano [obrigatória]
+
+28. Incêndio ou princípio de incêndio
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Situação constatada | Material/equipamento/local de origem aparente | Sinais observados | Houve combate inicial? | Brigada foi acionada? | Corpo de Bombeiros/apoio externo acionado? | Houve pessoa ferida/exposta? | Área isolada/evacuada? | Condição final e horário aproximado de normalização
+   Evidências específicas: Foto do local/dano, somente se houver condição segura [obrigatória]
+
+29. Situação de emergência operacional
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Natureza da emergência | Risco imediato identificado | Havia pessoas potencialmente expostas? | Medidas imediatas de controle adotadas | Áreas/equipes acionadas | Houve isolamento/interdição? | Condição final/normalização
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: controleInicial, areasAcionadas, normalizacao
+
+30. Falha operacional com impacto
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Atividade/processo em execução | Falha/desvio objetivamente constatado | Impacto ou risco decorrente | Houve interrupção de atividade/processo? | Medida imediata de controle | Área/responsável técnico acionado | Condição ao final do atendimento
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: controle, responsavel, condicaoFinal
+   Submodelos:
+      - Instabilidade/indisponibilidade do sistema Ronda (origem=Constatação espontânea da Segurança; evidência=recommended)
+      - Ocorrência com transporte fretado (evidência=recommended)
+
+31. Vazamento, derramamento ou ocorrência ambiental
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Tipo de ocorrência ambiental | Substância/material envolvido | Origem/fonte aparente | Extensão aparente da ocorrência | Atingiu solo, drenagem ou curso d’água? | Medidas de contenção adotadas | Área ambiental/manutenção acionada | Condição final do local
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: contencao, areaAmbiental, condicaoFinal
+
+32. Outra ocorrência envolvendo instalações ou emergência
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descrição objetiva da situação | Bem/instalação/área envolvida | Risco identificado | Medidas imediatas de controle | Área responsável acionada | Condição final
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: situacao, controle, areaAcionada, resultado
+
+33. Irregularidade constatada em ronda interna
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Ponto/trecho da ronda em que o fato foi identificado | O que foi constatado? | Havia risco imediato? | Orientação/providência realizada | Situação normalizada?
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: constatacao, orientacao, normalizacao
+
+34. Irregularidade constatada em ronda externa
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Trecho/local externo da ronda | O que foi constatado? | Havia risco para perímetro, patrimônio ou pessoas? | Providência/acionamento realizado | Condição final
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: constatacao, orientacao, normalizacao
+
+35. Constatação em fiscalização ou inspeção de segurança
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Objeto da fiscalização/inspeção | Requisito/procedimento verificado | Resultado da verificação | Orientação/ação para regularização
+   Submodelos:
+      - Fiscalização de trânsito (origem=Fiscalização / O.S.; evidência=recommended)
+      - Fiscalização com auxílio de radar (origem=Fiscalização / O.S.; evidência=recommended)
+      - Estado de conservação de veículo (origem=Fiscalização / O.S.; documentos=recommended; evidência=required)
+      - O.S. com auxílio de empilhadeira (origem=Fiscalização / O.S.; documentos=recommended; evidência=required)
+
+36. Não conformidade identificada em processo ou procedimento
+   Entidades: pessoa=recommended; testemunha=hidden; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Processo/procedimento auditado | Requisito esperado | Evidência/condição observada | Divergência identificada | Área/responsável comunicado | Encaminhamento definido
+   Submodelos:
+      - Permanência excessiva / overtime de veículo de carga (origem=Auditoria; documentos=required; docs obrigatórios=MVM; evidência=recommended)
+      - MVM extraviado na portaria (origem=Auditoria; documentos=required; docs obrigatórios=MVM; evidência=recommended)
+      - MVM extraviado no guichê (origem=Auditoria; documentos=required; docs obrigatórios=MVM; evidência=recommended)
+      - KM lançado incorretamente em sistema (origem=Auditoria; evidência=recommended)
+      - Protótipo sem lacre/proteção prevista (documentos=recommended; evidência=required)
+      - Utilização indevida de veículo (evidência=recommended)
+      - Vestimenta em desacordo com norma interna (evidência=recommended)
+      - Motorista sem EPI adequado (documentos=recommended; evidência=recommended)
+
+37. Suspeita de dano intencional ou sabotagem
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: required
+   Perguntas obrigatórias do roteiro: Fato/dano objetivamente constatado | Bem/processo/instalação atingida | Quais indícios verificáveis justificam a suspeita de ação intencional? | Há informação objetiva sobre possível autoria? | Medidas de preservação do local/evidências | Gestão/área responsável acionada
+   Evidências específicas: Foto do local e indícios preserváveis [obrigatória]
+
+38. Ocorrência envolvendo empresa de segurança prestadora de serviço
+   Entidades: pessoa=required; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Empresa prestadora de segurança envolvida | Atividade/posto relacionado | Fato ou desvio objetivamente constatado | Supervisor/responsável comunicado | Encaminhamento adotado
+
+39. Outra ocorrência relacionada à segurança patrimonial
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Contexto da atuação da Segurança Patrimonial | O que foi objetivamente constatado pela equipe? | Qual providência ou acionamento foi realizado? | Condição final no encerramento do atendimento
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: constatacao, providencia, resultado
+
+40. Ocorrência não enquadrada nas categorias existentes
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Descreva objetivamente a situação | Quais pessoas, veículos, materiais ou instalações estão envolvidos? | Providência adotada | Condição final
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: situacao, providencia, resultado
+
+41. Outra situação relevante para registro
+   Entidades: pessoa=recommended; testemunha=recommended; veículo=recommended; material=recommended
+   Evidência base: recommended
+   Perguntas obrigatórias do roteiro: Natureza do registro | Descrição objetiva do fato | Providência adotada | Condição final
+   Perguntas absorvidas pelo núcleo comum para evitar repetição: situacao, providencia, resultado
+
+REGRAS TRANSVERSAIS v35
+- Ronda interna/externa: sem solicitante; vigilante, registro e turno vêm da sessão e são obrigatórios.
+- Quantidade: quando o roteiro exigir verificação, deve ser marcada como determinada ou não determinada; se determinada, quantidade + unidade; se não, justificativa.
+- Identificação técnica: quando marcada como disponível, desenho/código é obrigatório.
+- Documentos: bloco próprio; MVM/NF/DEEM etc. não se repetem no cadastro de material.
+- Evidências: requisitos por finalidade; foto de dano não é satisfeita por anexo sem finalidade correspondente.
+- Perguntas universais de relato/constatação/providência/desfecho substituem perguntas duplicadas dos roteiros.
