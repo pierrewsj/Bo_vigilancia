@@ -1,0 +1,77 @@
+{
+  "name": "Segurança Patrimonial - BO Digital GSP",
+  "short_name": "BO GSP",
+  "description": "Registro adaptativo e guiado de boletins da Segurança Patrimonial, com 41 tipos principais, submodelos operacionais, evidências orientadas, revisão NEXO e funcionamento offline.",
+  "id": "bo-digital-gsp",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05070a",
+  "theme_color": "#080c12",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Novo BO",
+      "short_name": "Novo BO",
+      "description": "Iniciar um novo boletim",
+      "url": "./index.html?action=new-bo",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Consultar BOs",
+      "short_name": "Consultar",
+      "description": "Abrir a consulta de boletins",
+      "url": "./index.html?action=records",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "NEXO Operador",
+      "short_name": "NEXO",
+      "description": "Abrir o assistente operacional",
+      "url": "./index.html?action=nexo",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "share_title",
+      "text": "share_text",
+      "url": "share_url"
+    }
+  }
+}
